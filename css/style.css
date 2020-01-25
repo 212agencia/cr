@@ -10,14 +10,14 @@ p {
 }
 
 .imglogo {
-  width: 250px;
+  width: 600px;
   height: 350px;
   padding: 0;
   margin-top: 50px;
   margin: 10px;
   margin-left: 10px;
   margin-right: 10px;
-  display: table-cell;
+  display: center;
   vertical-align: center;
 }
 
