@@ -4,7 +4,17 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-
+.imglogo {
+  width: 500px;
+  height: 250px;
+  padding: 0;
+  margin-top: 50px;
+  margin: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: center;
+  vertical-align: center;
+}
 
 .azul {
 
