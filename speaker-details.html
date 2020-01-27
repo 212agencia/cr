@@ -46,16 +46,8 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="#intro">Inicio</a></li>
-          <li><a href="index.html">BTL</a></li>
-          <li><a href="index.html">Modelos</a></li>
-          <li><a href="index.html">Corporativos</a></li>
-          <li><a href="index.html"> Estructuras</a></li>
 
-          <li><a href="index.html">Galería</a></li>
-          <li><a href="index.html">Anuncios y promociones</a></li>
-          <li><a href="index.html">Contacto</a></li>
-          <li class="buy-tickets"><a href="index.html">Inicio</a></li>
+          <li class="buy-tickets"><a href="index.html">volver a pantalla de Inicio</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -93,37 +85,39 @@
                 <a href=""><i class="fa fa-instagram"></i></a>
                 <a href=""><i class="fa fa-whatsapp"></i></a>
 
-                <form action="https://formspree.io/xknjwrqk" method="POST">
-                  <label style="box-sizing: border-box;font-size:xx-large">
-                    Nombre:
-                    <input size="30" type="text" name="message">
-                  </label><br>
-                  <label style="box-sizing: border-box;font-size:xx-large">
-                    ¿Cúal es tú correo electrónico?:
-                    <input size="30" type="text" name="_replyto">
-                  </label><br>
-                  <label style="box-sizing: border-box;font-size:xx-large">
-                    Teléfono/Whatsapp:
-                    <input size="30" type="text" nname="message">
-                  </label><br>
-                  <label style="box-sizing: border-box;font-size:xx-large">
-                    ¿Tipo de evento Requerido?:
-                    <input size="30" name="message"></input>
-                    </labe></br><br>
+                <div id="container">
+
+                  <form action="https://formspree.io/xknjwrqk" method="POST">
                     <label style="box-sizing: border-box;font-size:xx-large">
+                      Nombre:
+                      <input size="30" type="text" name="message">
+                    </label><br>
+                    <label style="box-sizing: border-box;font-size:xx-large">
+                      ¿Cúal es tú correo electrónico?:
+                      <input size="30" type="text" name="_replyto">
+                    </label><br>
+                    <label style="box-sizing: border-box;font-size:xx-large">
+                      Teléfono/Whatsapp:
+                      <input size="30" type="text" nname="message">
+                    </label><br>
+                    <label style="box-sizing: border-box;font-size:xx-large">
+                      ¿Tipo de evento Requerido?:
+                      <input size="30" name="message"></input>
+                      </labe></br><br>
                       ¿Cúantas personas ?(especificar adultos-niños)
                       <input size="30" name="message"></input>
                     </label></br><br>
                     <label style="box-sizing: border-box;font-size:xx-large">
                       Fecha del evento:
-                      <input size="30" name="message"></input>
+                      <input size="30" type="date" name="message">Tipo fecha</input>
                     </label></br><br>
 
                     <!-- your other form fields go here -->
 
                     <button style="padding: 14px 40px;background-color: darkgreen;text-align: center"
                       type="submit">Enviar</button></br>
-                </form>
+                  </form>
+                </div>
               </div>
             </div>
 
