@@ -1061,7 +1061,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # Hotels Section
 --------------------------------------------------------------*/
-
 #hotels {
   padding: 60px 0;
 }
@@ -1117,10 +1116,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-style: italic;
   font-size: 15px;
 }
-
-/*--------------------------------------------------------------
-# Gallery Section
---------------------------------------------------------------*/
 
 #gallery {
   padding: 60px;
