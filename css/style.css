@@ -217,6 +217,10 @@ h6 {
   outline: none;
 }
 
+#btl {
+  color: #fff;
+}
+
 .back-to-top:hover {
   background: #e0072f;
   color: #fff;
@@ -227,7 +231,7 @@ h6 {
 
 .section-header {
   margin-bottom: 60px;
-  position: relative;
+  position: center;
   padding-bottom: 20px;
 }
 
