@@ -175,5 +175,22 @@ function carousel() {
     slideIndex = 1
   }
   x[slideIndex - 1].style.display = "block";
-  setTimeout(carousel, 2000); // Change image every 2 seconds
+  setTimeout(carousel, 4000); // Change image every 2 seconds
+}
+
+var slideIndex2 = 0;
+carousel2();
+
+function carousel2() {
+  var i;
+  var xA = document.getElementsByClassName("my");
+  for (i = 0; i < xA.length; i++) {
+    xA[i].style.display = "none";
+  }
+  slideIndex2++;
+  if (slideIndex2 > xA.length) {
+    slideIndex2 = 1
+  }
+  xA[slideIndex2 - 1].style.display = "block";
+  setTimeout(carousel2, 4000); // Change image every 2 seconds
 }
