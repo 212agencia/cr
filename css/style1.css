@@ -4,19 +4,30 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-p {
-  color: #0e1b4d;
-  text-align-last: center;
+.imglogo {
+  width: 100px;
+  height: 100px;
+
 }
 
-.imgspace {
-  width: 250px;
-  height: 350px;
+.column {
+  float: left;
+  width: 33.33%;
   padding: 0;
-  padding-left: 30px;
-
-
 }
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+div .column-fisico2 {
+  padding-left: 300px;
+  width: 100px;
+  height: 100px;
+}
+
 
 .preloader {
   width: 70px;
@@ -40,39 +51,6 @@ p {
   }
 }
 
-.imglogo {
-  width: 300px;
-  height: 250px;
-
-}
-
-.label {
-  color: white;
-  padding: 8px;
-  text-align: justify;
-}
-
-input[type=text] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-
-.preloader {
-  width: 70px;
-  height: 70px;
-  border: 10px solid #eee;
-  border-radius: 50%;
-}
-
-#top h2 {
-  text-shadow: 2px 2px black;
-  text-align: center;
-  color: rgb(22, 21, 21);
-  font-family: "Impact";
-}
-
 .azul {
 
   color: #0e1b4d;
@@ -93,6 +71,18 @@ input[type=text] {
   transform-style: preserve-3d;
 }
 
+.sustituida-modificada {
+  box-sizing: border-box;
+  display: block;
+  width: 115px;
+  /*Ancho de la imagen nueva, aunque en este caso son iguales.*/
+  height: 115px;
+  /*Ancho de la imagen nueva, aunque en este caso son iguales.*/
+  padding-left: 115px;
+  /*Padding igual al ancho de la imagen nueva*/
+  background: url(img/fotos página/models/michelle2.jpg);
+  overflow: hidden;
+}
 
 .imgcuadrada {
   width: 250px;
@@ -109,16 +99,15 @@ input[type=text] {
 
 
 .imgredonda {
-  width: 290px;
-  height: 390px;
-
+  width: 320px;
+  height: 325px;
 
 
 }
 
 body {
-  background: rgb(252, 249, 249);
-  color: #6d626a;
+  background: rgb(24, 23, 23);
+  color: #2f3138;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -155,19 +144,24 @@ p {
 
 }
 
+h4 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  color: red;
+
+}
 
 h1,
 h2,
 h3,
-h4,
 h5,
 h6 {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
-  color: #f82249;
-  text-align: auto;
+  color: #0e1b4d;
 }
 
 .main-page {
@@ -188,7 +182,7 @@ h6 {
   width: 100%;
   height: 100%;
   overflow: visible;
-  background: #fff url("../img/Logo.png") no-repeat center center;
+  background: #fff url("../img/preloader.svg") no-repeat center center;
 }
 
 /* Back to top button */
@@ -218,10 +212,6 @@ h6 {
   outline: none;
 }
 
-#btl {
-  color: #fff;
-}
-
 .back-to-top:hover {
   background: #e0072f;
   color: #fff;
@@ -232,7 +222,7 @@ h6 {
 
 .section-header {
   margin-bottom: 60px;
-  position: center;
+  position: relative;
   padding-bottom: 20px;
 }
 
@@ -1026,8 +1016,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #venue {
-  padding: 0px 0;
-
+  padding: 60px 0;
 }
 
 #venue .container-fluid {
@@ -1051,11 +1040,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 #venue .venue-info:before {
   content: "";
   background: rgba(13, 20, 41, 0.8);
-
-  bottom: 1000;
-  top: 100;
-  left: 1000;
-  right: 1000;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 #venue .venue-info h3 {
@@ -1091,7 +1080,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # Hotels Section
 --------------------------------------------------------------*/
-
 #hotels {
   padding: 60px 0;
 }
@@ -1147,10 +1135,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-style: italic;
   font-size: 15px;
 }
-
-/*--------------------------------------------------------------
-# Gallery Section
---------------------------------------------------------------*/
 
 #gallery {
   padding: 60px;

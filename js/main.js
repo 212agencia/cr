@@ -194,3 +194,20 @@ function carousel2() {
   xA[slideIndex2 - 1].style.display = "block";
   setTimeout(carousel2, 4000); // Change image every 2 seconds
 }
+
+var slideIndex3 = 0;
+carousel3();
+
+function carousel3() {
+  var i;
+  var xAr = document.getElementsByClassName("models");
+  for (i = 0; i < xAr.length; i++) {
+    xAr[i].style.display = "none";
+  }
+  slideIndex3++;
+  if (slideIndex3 > xAr.length) {
+    slideIndex3 = 1
+  }
+  xAr[slideIndex3 - 1].style.display = "block";
+  setTimeout(carousel3, 4000); // Change image every 2 seconds
+}
