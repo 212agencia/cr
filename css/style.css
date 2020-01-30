@@ -18,17 +18,8 @@ p {
 
 }
 
-.preloader {
-  width: 70px;
-  height: 70px;
-  border: 10px solid #eee;
-  border-top: 10px solid #666;
-  border-radius: 50%;
-  animation-name: girar;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
+
+
 
 @keyframes girar {
   from {
@@ -783,12 +774,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #about {
-  background: url("../img/about-bg.jpg");
-  background-size: cover;
-  overflow: hidden;
-  position: relative;
-  color: #fff;
-  padding: 60px 0 40px 0;
+  margin: auto;
 }
 
 #about:before {
