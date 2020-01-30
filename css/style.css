@@ -97,17 +97,43 @@ input[type=text] {
   vertical-align: middle;
 }
 
+#contenedor_principal {
+  width: 1024px;
+  height: auto;
+  position: relative;
+  margin: auto;
+}
+
+.contenedor_imagen_texto {
+  width: 335px;
+  height: auto;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+}
+
+.imagen,
+.texto {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: inline;
+}
+
+.texto {
+  height: auto;
+  text-align: center
+}
+
 .afiches {
-  width: 400px;
-  height: 600px;
+  width: 600px;
+  height: 450px;
   padding: 0;
-  margin-top: 50px;
-  margin: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+
   display: table-cell;
-  vertical-align: middle;
-  margin-top: 30px;
+  vertical-align: center;
+
 }
 
 
