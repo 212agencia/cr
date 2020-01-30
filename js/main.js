@@ -211,3 +211,20 @@ function carousel3() {
   xAr[slideIndex3 - 1].style.display = "block";
   setTimeout(carousel3, 4000); // Change image every 2 seconds
 }
+
+var slideIndex4 = 1;
+carousel4();
+
+function carousel4() {
+  var i;
+  var xAr4 = document.getElementsByClassName("change");
+  for (i = 0; i < xAr4.length; i++) {
+    xAr4[i].style.display = "none";
+  }
+  slideIndex4++;
+  if (slideIndex4 > xAr4.length) {
+    slideIndex4 = 1
+  }
+  xAr4[slideIndex4 - 1].style.display = "block";
+  setTimeout(carousel4, 4000); // Change image every 2 seconds
+}
