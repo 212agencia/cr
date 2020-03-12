@@ -34,7 +34,7 @@ p {
 .imglogo {
   width: 300px;
   height: 250px;
-
+  opacity: 0.1;
 }
 
 .label {
