@@ -27,14 +27,14 @@ jQuery(document).ready(function ($) {
   if ($(window).scrollTop() > 100) {
     $('#header').addClass('header-scrolled');
   }
-  alert("Proyecto protegido sobre la ley de propiedad intelectual, solo los administradores pueden dar acceso a los productos emergentes, no se puede compartir contenido sin el previo consentimiento, muchas gracias");
+  alert("Proyecto protegido sobre la ley de propiedad intelectual, solo los administradores pueden dar acceso a los productos emergentes, no se puede compartir contenido sin el previo consentimiento, si usted recibió esta aplicación por error favor cerrarla. ");
   // Real view height for mobile devices
   if (window.matchMedia("(max-width: 767px)").matches) {
     $('#intro').css({
       height: $(window).height()
     });
   }
-  alert("Deslice hacia abajo, Costa Rica necesita disrupcion");
+  alert("Presentación exclusiva para RACSA Costa Rica");
   // Initiate the wowjs animation library
   new WOW().init();
 
