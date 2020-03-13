@@ -34,7 +34,7 @@ jQuery(document).ready(function ($) {
       height: $(window).height()
     });
   }
-
+  alert("Deslice hacia abajo, Costa Rica necesita disrupcion");
   // Initiate the wowjs animation library
   new WOW().init();
 
